@@ -17,12 +17,15 @@ const Navigation  = () => {
     const isSignup = useActive(pathname, '/signup')
 
     return <Menu mode="horizontal" selectable={false}>
+
         <Menu.Item className={isHome}>
-            <Link to="/">Home</Link>
+            <Link to="/">Mini-blog</Link>
         </Menu.Item>
+
         <Menu.Item className={isSignin}>
             <Link to="/signin">Sign in</Link>
         </Menu.Item>
+
         <Menu.Item className={isSignup}>
             <Link to="/signup">Sign up</Link>
         </Menu.Item>
