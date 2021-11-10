@@ -14,7 +14,7 @@ const Signup  = () => {
     return <Layout title="Sign up" subTitle="" >
         <Logo/>
         <Form onFinish={onFinish}  style={{width:"400px",margin:"0 auto"}}>
-            <Form.Item name="name" label="username">
+            <Form.Item name="username" label="username">
                 <Input/>
             </Form.Item>
             <Form.Item name="password" label="password">

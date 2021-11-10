@@ -17,7 +17,6 @@ const Navigation  = () => {
     const isSignup = useActive(pathname, '/signup')
 
     return <Menu mode="horizontal" selectable={false}>
-
         <Menu.Item className={isHome}>
             <Link to="/">Mini-blog</Link>
         </Menu.Item>
