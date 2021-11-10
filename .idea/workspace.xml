@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1882ac8-0179-47d3-ad6f-dc3dacaee3d3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/core/Logo.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/core/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/components/core/Navigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/core/Navigation.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/core/Signin.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/core/Signin.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/components/core/Signup.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/core/Signup.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/store/actions/auth.actions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/store/actions/auth.actions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,12 +37,18 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ecommerce" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/frontend/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ecommerce" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/server" />
       <recent name="$PROJECT_DIR$/frontend/src/components/core" />
       <recent name="$PROJECT_DIR$/frontend/public" />
     </key>
@@ -60,7 +62,8 @@
       <option name="presentableId" value="Default" />
       <updated>1636467214030</updated>
       <workItem from="1636467218068" duration="289000" />
-      <workItem from="1636475291822" duration="3907000" />
+      <workItem from="1636475291822" duration="5480000" />
+      <workItem from="1636503950976" duration="1472000" />
     </task>
     <servers />
   </component>
@@ -77,5 +80,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
