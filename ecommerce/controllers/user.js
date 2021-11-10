@@ -42,61 +42,10 @@ const update = (req, res) => {
   })
 }
 
-const addOrderToUserHistory = (userId, orderId) => {
-  let history = []
 
-  Order.findOne({ _id: orderId })
-    .populate("products.product")
-    .then(order => {
-      order.products.forEach(item => {
-        history.push({
-          _id: item.product._id,
-          name: item.product.name,
-          description: item.product.description,
-          category: item.product.category,
-          quantity: item.count,
-          transaction_id: order.trade_no,
-          amount: order.amount
-        })
-      })
-      User.findOneAndUpdate(
-        { _id: userId },
-        { $push: { history: history } },
-        { new: true, useFindAndModify: false },
-        error => {
-          if (error) console.log("用户历史购买信息添加失败")
-        }
-      )
-    })
-    .catch(e =>
-      console.log(
-        "订单信息获取失败导致无法将产品添加到用户购买的历史记录里中",
-        e
-      )
-    )
-}
-
-const purchaseHistory = (req, res) => {
-  Order.find({ user: req.profile._id })
-    .populate([
-      { path: "user", select: "_id name" },
-      { path: "products.product", select: "-photo" }
-    ])
-    .sort("-created")
-    .exec((err, orders) => {
-      if (err) {
-        return res.status(400).json({
-          error: errorHandler(err)
-        })
-      }
-      res.json(orders)
-    })
-}
 
 module.exports = {
   userById,
   read,
-  update,
-  addOrderToUserHistory,
-  purchaseHistory
+  update
 }

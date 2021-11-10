@@ -3,10 +3,27 @@
   <component name="ChangeListManager">
     <list default="true" id="c1882ac8-0179-47d3-ad6f-dc3dacaee3d3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/core/Navigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/core/Navigation.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/core/Signup.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/core/Signup.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/.idea/aws.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/.idea/ecommerce.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/config/custom-environment-variables.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/controllers/auth.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/controllers/user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/ecosystem.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/helpers/dbErrorHandler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/models/connect.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/models/user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/pem/private_key.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/pem/public_key.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/routes/auth.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/routes/user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/validator/index.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +81,8 @@
       <workItem from="1636467218068" duration="289000" />
       <workItem from="1636475291822" duration="5480000" />
       <workItem from="1636503950976" duration="1472000" />
+      <workItem from="1636514650626" duration="536000" />
+      <workItem from="1636515218802" duration="1465000" />
     </task>
     <servers />
   </component>

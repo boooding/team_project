@@ -1,4 +1,4 @@
- const userSignupValidator = (req, res, next) => {
+const userSignupValidator = (req, res, next) => {
   req.check("username", "请传入昵称").notEmpty()
   req.check("password", "请传入密码").notEmpty()
   req

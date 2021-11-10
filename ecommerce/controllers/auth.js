@@ -26,9 +26,9 @@ const signup = (req, res) => {
 
 // 登录
 const signin = (req, res) => {
-  // 获取 username 和 password
+  // 获取 email 和 password
   const { username, password } = req.body
-  // 根据 username 查找用户
+  // 根据 email 查找用户
   User.findOne({ username }, (error, user) => {
     // 如果用户不存在
     if (error || !user) {
@@ -37,7 +37,7 @@ const signin = (req, res) => {
     }
     // 用户存在
     if (!user.authenticate(password)) {
-      return res.status(401).json({ error: "账号和密码不匹配" })
+      return res.status(401).json({ error: "邮箱和密码不匹配" })
     }
     // 生成 token
     const token = jwt.sign({ id: user._id }, process.env.JWT_SECRET)

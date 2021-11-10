@@ -2,8 +2,7 @@ const express = require("express")
 const {
   userById,
   read,
-  update,
-  purchaseHistory
+  update
 } = require("../controllers/user")
 const { requireSignin, isAuth } = require("../controllers/auth")
 
@@ -13,12 +12,7 @@ const router = express.Router()
 router.get("/user/:userId", [requireSignin, isAuth], read)
 // 更新用户信息 (昵称和密码)
 router.put("/user/:userId", [requireSignin, isAuth], update)
-// 获取用户的历史订单
-router.get(
-  "/orders/by/user/:userId",
-  [requireSignin, isAuth],
-  purchaseHistory
-)
+
 
 router.param("userId", userById)
 
