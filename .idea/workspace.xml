@@ -2,37 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1882ac8-0179-47d3-ad6f-dc3dacaee3d3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/core/Blog.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/core/BlogArticle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/core/BlogArticle.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/core/BlogInfo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/core/BlogInfo.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/core/img.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/config/custom-environment-variables.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/config/custom-environment-variables.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/config/development.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/config/development.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/config/production.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/config/production.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/controllers/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/auth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/controllers/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/ecosystem.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/ecosystem.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/helpers/dbErrorHandler.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/helpers/dbErrorHandler.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/models/connect.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/connect.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/pem/alipay_public_key.pem" beforeDir="false" afterPath="$PROJECT_DIR$/backend/pem/alipay_public_key.pem" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/pem/private_key.pem" beforeDir="false" afterPath="$PROJECT_DIR$/backend/pem/private_key.pem" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/pem/public_key.pem" beforeDir="false" afterPath="$PROJECT_DIR$/backend/pem/public_key.pem" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/routes/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/auth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/routes/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/validator/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/validator/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/Routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Routes.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/core/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/core/Layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/core/Navigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/core/Navigation.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/store/actions/auth.actions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/store/actions/auth.actions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/store/reducers/auth.reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/store/reducers/auth.reducer.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +81,7 @@
       <workItem from="1636554297363" duration="139000" />
       <workItem from="1636812636070" duration="5000" />
       <workItem from="1636820211620" duration="515000" />
-      <workItem from="1636861022533" duration="6351000" />
+      <workItem from="1636861022533" duration="7179000" />
     </task>
     <servers />
   </component>
