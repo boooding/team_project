@@ -1,0 +1,15 @@
+.info-box {
+    border: 1px solid #F2F2F2;
+    border-radius: 3px;
+}
+
+.avatar {
+    width: 70px;
+    height: 70px;
+    margin: 40px auto;
+}
+
+.avatar img {
+    width: 70px;
+    height: 70px;
+}

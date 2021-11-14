@@ -2,7 +2,7 @@ module.exports = {
   apps: [
     {
       script: "app.js",
-      name: "ecommerce",
+      name: "backend",
       node_args: "-r dotenv/config"
     }
   ]

@@ -1,12 +1,12 @@
 const userSignupValidator = (req, res, next) => {
-  req.check("username", "请传入昵称").notEmpty()
-  req.check("password", "请传入密码").notEmpty()
+  req.check("username", "name miss").notEmpty()
+  req.check("password", "password miss").notEmpty()
   req
     .check("password")
     .isLength({ min: 6 })
-    .withMessage("密码不能小于6位")
-    .matches(/\d/)
-    .withMessage("密码必须包含一个数值")
+    .withMessage("length of password should greater than 6")
+    // .matches(/\d/)
+    // .withMessage("")
   const errors = req.validationErrors()
   if (errors) {
     const firstError = errors.map(error => error.msg)[0]

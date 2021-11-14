@@ -16,6 +16,8 @@ const Navigation  = () => {
     const isSignin = useActive(pathname, "/signin")
     const isSignup = useActive(pathname, '/signup')
 
+    const isBlog = useActive(pathname, '/blog')
+
     return <Menu mode="horizontal" selectable={false}>
         <Menu.Item className={isHome}>
             <Link to="/">Mini-blog</Link>
@@ -27,6 +29,10 @@ const Navigation  = () => {
 
         <Menu.Item className={isSignup}>
             <Link to="/signup">Sign up</Link>
+        </Menu.Item>
+
+        <Menu.Item className={isBlog}>
+            <Link to="/blog">blog</Link>
         </Menu.Item>
     </Menu>
 }

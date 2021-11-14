@@ -1,9 +1,14 @@
+/*
+    Sign up related
+ */
+
+// const value
 export const SIGNUP = "SIGNUP";
 export const SIGNUP_SUCCESS = "SIGNUP_SUCCESS";
 export const SIGNUP_FAIL = "SIGNUP_FAIL";
 
 export interface SignupPayload {
-    name: string,
+    username: string,
     password: string
 }
 export interface SignupAction {
@@ -39,7 +44,50 @@ export const signupFail = (message: string): SignupFailAction => {
     }
 }
 
-export type AuthUnionType =
-    SignupAction |
-    SignupSuccessAction |
-    SignupFailAction;
+/*
+    Sign in related
+ */
+
+export const SIGNIN = "SIGNIN"
+export const SIGNIN_SUCCESS = "SIGNIN_SUCCESS"
+export const SIGNIN_FAIL = "SIGNIN_FAIL"
+
+export interface SigninPayload {
+    username: string
+    password: string
+}
+
+export interface SigninAction {
+    type: typeof SIGNIN
+    payload: SigninPayload
+}
+
+export interface SigninSuccessAction {
+    type: typeof SIGNIN_SUCCESS
+}
+
+export interface SigninFailAction {
+    type: typeof SIGNIN_FAIL
+    message: string
+}
+
+export const signin = (payload: SigninPayload): SigninAction => ({
+    type: SIGNIN,
+    payload
+})
+
+export const signinSuccess = (): SigninSuccessAction => ({
+    type: SIGNIN_SUCCESS
+})
+
+export const signinFail = (message: string): SigninFailAction => ({
+    type: SIGNIN_FAIL,
+    message
+})
+
+export type AuthUnionType = SignupAction
+    | SignupSuccessAction
+    | SignupFailAction
+    | SigninAction
+    | SigninSuccessAction
+    | SigninFailAction

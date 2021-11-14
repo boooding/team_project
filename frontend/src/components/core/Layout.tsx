@@ -9,7 +9,7 @@ interface Props {
 const Layout: FC<Props> = ({ children, title, subTitle }) => {
     return <div>
         <Navigation/>
-        <div style={{width: "60%", margin: "0 auto"}}>
+        <div style={{width: "830px", margin: "0 auto"}}>
             {children}
         </div>
     </div>

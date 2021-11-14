@@ -2,28 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1882ac8-0179-47d3-ad6f-dc3dacaee3d3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/core/Blog.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/core/BlogArticle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/core/BlogArticle.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/core/BlogInfo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/core/BlogInfo.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/core/img.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/.idea/aws.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/.idea/ecommerce.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/config/custom-environment-variables.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/controllers/auth.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/controllers/user.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/ecosystem.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/helpers/dbErrorHandler.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/models/connect.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/models/user.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/pem/private_key.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/pem/public_key.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/routes/auth.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/routes/user.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/validator/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/config/custom-environment-variables.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/config/custom-environment-variables.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/config/development.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/config/development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/config/production.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/config/production.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/controllers/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/controllers/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/ecosystem.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/ecosystem.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/helpers/dbErrorHandler.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/helpers/dbErrorHandler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/models/connect.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/connect.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/pem/alipay_public_key.pem" beforeDir="false" afterPath="$PROJECT_DIR$/backend/pem/alipay_public_key.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/pem/private_key.pem" beforeDir="false" afterPath="$PROJECT_DIR$/backend/pem/private_key.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/pem/public_key.pem" beforeDir="false" afterPath="$PROJECT_DIR$/backend/pem/public_key.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/routes/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/routes/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/validator/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/validator/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/Routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Routes.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/core/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/core/Layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/core/Navigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/core/Navigation.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/store/actions/auth.actions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/store/actions/auth.actions.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,11 +44,23 @@
       <list>
         <option value="React Component" />
         <option value="TypeScript JSX File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
   </component>
   <component name="ProjectId" id="20gXTMT9wD2TJcS3wy9E0gVoWuP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -50,12 +71,15 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/ecommerce" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/frontend/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -82,7 +106,11 @@
       <workItem from="1636475291822" duration="5480000" />
       <workItem from="1636503950976" duration="1472000" />
       <workItem from="1636514650626" duration="536000" />
-      <workItem from="1636515218802" duration="1465000" />
+      <workItem from="1636515218802" duration="4019000" />
+      <workItem from="1636554297363" duration="139000" />
+      <workItem from="1636812636070" duration="5000" />
+      <workItem from="1636820211620" duration="515000" />
+      <workItem from="1636861022533" duration="6351000" />
     </task>
     <servers />
   </component>
@@ -100,5 +128,8 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

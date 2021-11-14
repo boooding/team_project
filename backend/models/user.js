@@ -8,8 +8,8 @@ const userSchema = new mongoose.Schema(
     username: {
       type: String,
       trim: true,
-      maxlength: [4, "昵称长度不能大于4"],
-      required: [true, "请填写昵称"]
+      maxlength: [4, "the length of username"],
+      required: [true, "username miss"]
     },
     hashed_password: {
       type: String,
