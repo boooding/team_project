@@ -23,12 +23,6 @@ const BlogInfo  = () => {
             <div>
                 Programmer
             </div>
-            <div>
-                Programmer
-            </div>
-            <div>
-                Programmer
-            </div>
         </div>
 
         <div className="info-intro divCenter">
