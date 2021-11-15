@@ -9,7 +9,7 @@ const Blog  = () => {
             marginTop: "30px"
         }}>
             <div style={{
-                width: "270px",
+                width: "250px",
                 float: "left"
             }}>
                 <BlogInfo/>

@@ -13,7 +13,28 @@ const BlogInfo  = () => {
         </div>
 
 
-        <div className="">
+        <div className="info-username textCenter">
+            <div>
+                Booding
+            </div>
+        </div>
+
+        <div className="info-tag divCenter clearfix">
+            <div>
+                Programmer
+            </div>
+            <div>
+                Programmer
+            </div>
+            <div>
+                Programmer
+            </div>
+        </div>
+
+        <div className="info-intro divCenter">
+            The blogger is to lazy to introduce himself
+        </div>
+        <div className="info-friend">
 
         </div>
     </div>

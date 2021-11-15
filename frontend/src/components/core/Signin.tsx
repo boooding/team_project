@@ -2,12 +2,23 @@ import React from "react"
 import Layout from "./Layout";
 import {Button, Form, Input} from "antd";
 import Logo from "./Logo";
+import {signin, SigninPayload} from "../../store/actions/auth.actions";
+import {useDispatch} from "react-redux";
+
 
 const Signin  = () => {
+    const dispatch = useDispatch()
+    const onFinish = (signinValue: SigninPayload) => {
+        // console.log(value)
+        dispatch(signin(signinValue))
+        console.log("here")
+    }
     return <Layout title="Sign in" subTitle="">
         <Logo/>
-        <Form style={{width:"400px",margin:"0 auto"}}>
-            <Form.Item name="name" label="username" >
+        <Form
+            onFinish={onFinish}
+            style={{width:"400px",margin:"0 auto"}}>
+            <Form.Item name="username" label="username" >
                 <Input/>
             </Form.Item>
             <Form.Item name="password" label="password">
