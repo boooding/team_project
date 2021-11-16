@@ -1,5 +1,5 @@
 import React from "react"
-import Layout from "./Layout";
+import Layout from "../core/Layout";
 import BlogInfo from "./BlogInfo";
 import BlogArticle from "./BlogArticle";
 
@@ -15,7 +15,7 @@ const Blog  = () => {
                 <BlogInfo/>
             </div>
             <div style={{
-                width: "520px",
+                width: "540px",
                 float: "right"
             }}>
                 <BlogArticle/>

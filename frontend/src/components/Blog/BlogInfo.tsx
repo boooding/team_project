@@ -1,6 +1,6 @@
 import React from "react"
 import "./BlogInfo.css"
-import img from "./img.png"
+import img from "../core/img.png"
 
 const BlogInfo  = () => {
     return <div className="info-box">

@@ -3,7 +3,7 @@ import {HashRouter, Route, Switch} from "react-router-dom";
 import Home from "./components/core/Home";
 import Signin from "./components/core/Signin";
 import Signup from "./components/core/Signup";
-import Blog from "./components/core/Blog";
+import Blog from "./components/Blog/Blog";
 
 const Routes  = () => {
     return <HashRouter>
