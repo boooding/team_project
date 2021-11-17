@@ -12,7 +12,6 @@ const BlogInfo  = () => {
             />
         </div>
 
-
         <div className="info-username textCenter">
             <div>
                 Booding
