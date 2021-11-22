@@ -3,7 +3,9 @@ import Layout from "./Layout";
 import {Button, Form, Input} from "antd";
 import Logo from "./Logo";
 import {signin, SigninPayload} from "../../store/actions/auth.actions";
-import {useDispatch} from "react-redux";
+import {useDispatch, useSelector} from "react-redux";
+import {AppState} from "../../store/reducers";
+import {AuthState} from "../../store/reducers/auth.reducer";
 
 
 const Signin  = () => {
@@ -13,6 +15,9 @@ const Signin  = () => {
         dispatch(signin(signinValue))
         console.log("here")
     }
+    // @ts-ignore
+    const auth = useSelector<AppState, AuthState>(state => state.auth)
+    console.log(auth);
     return <Layout title="Sign in" subTitle="">
         <Logo/>
         <Form

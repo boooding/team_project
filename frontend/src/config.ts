@@ -1,2 +1,2 @@
-export let API: string = "http://localhost:2999/"
+export let API: string = "http://localhost:2999"
 

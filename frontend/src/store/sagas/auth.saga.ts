@@ -14,7 +14,7 @@ import {API} from "../../config";
 
 function* handleSignup(action: SignupAction) {
     try {
-        yield axios.post(`${API}/signup`, action.payload)
+        yield axios.post(`${API}/users/signup`, action.payload)
         yield put(signupSuccess())
     } catch (error: any) {
         yield put(signupFail(error.response.data.error))
@@ -23,7 +23,7 @@ function* handleSignup(action: SignupAction) {
 
 function* handleSignin(action: SigninAction) {
     try {
-        let response = yield axios.post(`${API}/signin`, action.payload)
+        let response = yield axios.post(`${API}/users/signin`, action.payload)
         localStorage.setItem("jwt", JSON.stringify(response.data))
         yield put(signinSuccess())
     } catch (error: any) {

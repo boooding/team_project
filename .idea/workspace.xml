@@ -2,7 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1882ac8-0179-47d3-ad6f-dc3dacaee3d3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/backend/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/controllers/blogs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/controllers/users.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/models/blog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/models/connectDB.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/models/users.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/routes/blog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/routes/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/routes/user.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPT/CS353FZweek4.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/PPT/CS353FX_week4.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/core/Navigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/core/Navigation.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/core/Signin.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/core/Signin.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/store/sagas/auth.saga.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/store/sagas/auth.saga.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +64,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ecommerce" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/backend" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -55,14 +73,15 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/backend" />
       <recent name="$PROJECT_DIR$/ecommerce" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/backend" />
       <recent name="$PROJECT_DIR$/frontend/src/components/Blog" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/server" />
       <recent name="$PROJECT_DIR$/frontend/src/components/core" />
-      <recent name="$PROJECT_DIR$/frontend/public" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -85,6 +104,7 @@
       <workItem from="1637049294873" duration="383000" />
       <workItem from="1637051157976" duration="3053000" />
       <workItem from="1637165253452" duration="416000" />
+      <workItem from="1637597025092" duration="1958000" />
     </task>
     <servers />
   </component>

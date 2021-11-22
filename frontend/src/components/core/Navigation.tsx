@@ -30,7 +30,9 @@ const Navigation  = () => {
         <Menu.Item className={isSignup}>
             <Link to="/signup">Sign up</Link>
         </Menu.Item>
-
+        {/*{*/}
+        {/*    isAuth*/}
+        {/*}*/}
         <Menu.Item className={isBlog}>
             <Link to="/blog">blog</Link>
         </Menu.Item>
