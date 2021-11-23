@@ -61,7 +61,14 @@ class UsersCtl {
         if (!user) { ctx.throw(401, 'username or password is incorrect'); }
         const { _id, username } = user;
         const token = jsonwebtoken.sign({ _id, username }, "key", { expiresIn: '2d' });
-        ctx.body = { token, "message": "login success" };
+        ctx.body = {
+            token,
+            "message": "login success",
+            "user": {
+                _id,
+                username
+            }
+        };
     }
 
     // avatar upload
