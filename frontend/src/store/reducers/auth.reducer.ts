@@ -1,8 +1,9 @@
 import {
     AuthUnionType,
+    RESET_SIGNUP,
     SIGNIN,
     SIGNIN_FAIL,
-    SIGNIN_SUCCESS,
+    SIGNIN_SUCCESS, signup,
     SIGNUP,
     SIGNUP_FAIL,
     SIGNUP_SUCCESS
@@ -90,6 +91,11 @@ export default function authReducer (
                     success: false,
                     message: action.message
                 }
+            }
+        case RESET_SIGNUP:
+            return {
+                ...state,
+                signup: initialState.signup
             }
         default:
             return state

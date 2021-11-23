@@ -1,7 +1,7 @@
 import React, {useEffect} from "react"
 import Layout from "./Layout";
 import {Anchor, Button, Form, Input, Result} from "antd";
-import {signup, SignupPayload} from "../../store/actions/auth.actions";
+import {resetSignup, signup, SignupPayload} from "../../store/actions/auth.actions";
 import {useDispatch, useSelector} from "react-redux";
 import Logo from "./Logo";
 import {AppState} from "../../store/reducers";
@@ -60,7 +60,7 @@ const Signup  = () => {
     // reset the form after leaving the page
     useEffect(() => {
         return () => {
-
+            dispatch(resetSignup())
         };
     }, []);
 
