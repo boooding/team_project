@@ -63,7 +63,6 @@ class UsersCtl {
         const token = jsonwebtoken.sign({ _id, username }, "key", { expiresIn: '2d' });
         ctx.body = {
             token,
-            "message": "login success",
             "user": {
                 _id,
                 username

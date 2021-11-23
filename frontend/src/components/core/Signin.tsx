@@ -6,6 +6,9 @@ import {signin, SigninPayload} from "../../store/actions/auth.actions";
 import {useDispatch, useSelector} from "react-redux";
 import {AppState} from "../../store/reducers";
 import {AuthState} from "../../store/reducers/auth.reducer";
+import {isAuth} from "../../commonFunction/auth";
+import {UserJwt} from "../../store/models/auth";
+import {Redirect} from "react-router-dom";
 
 
 
@@ -30,10 +33,18 @@ const Signin  = () => {
         }
     }
     // if success, jump to the user home page
+    const signinSuccessAndRedirectToUserPage = () => {
+        const authInfo = isAuth();
+        console.log(authInfo)
+        if (authInfo) {
+            return <Redirect to="/blog"/>
+        }
+    }
     // hide the signin and signup link in the navigation, display the user home page
 
     return <Layout title="Sign in" subTitle="">
         {showError()}
+        {signinSuccessAndRedirectToUserPage()}
         <Logo/>
         <Form
             onFinish={onFinish}
