@@ -13,7 +13,6 @@ const Signup  = () => {
     // get dispatch
     const dispatch = useDispatch()
     // get the result of signup
-    // @ts-ignore
     const auth = useSelector<AppState, AuthState>(state => state.auth)
 
     const onFinish = (value: SignupPayload) => {

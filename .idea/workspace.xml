@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="c1882ac8-0179-47d3-ad6f-dc3dacaee3d3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/controllers/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/controllers/users.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/components/core/Signin.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/core/Signin.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/core/Signup.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/core/Signup.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/store/reducers/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/store/reducers/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/store/sagas/auth.saga.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/store/sagas/auth.saga.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +90,7 @@
       <workItem from="1637049294873" duration="383000" />
       <workItem from="1637051157976" duration="3053000" />
       <workItem from="1637165253452" duration="416000" />
-      <workItem from="1637597025092" duration="10317000" />
+      <workItem from="1637597025092" duration="11424000" />
     </task>
     <servers />
   </component>

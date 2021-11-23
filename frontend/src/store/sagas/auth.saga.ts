@@ -27,7 +27,7 @@ function* handleSignin(action: SigninAction) {
         localStorage.setItem("jwt", JSON.stringify(response.data))
         yield put(signinSuccess())
     } catch (error: any) {
-        yield put(signinFail(error.response.data.error))
+        yield put(signinFail(error.response.data.message))
     }
 }
 

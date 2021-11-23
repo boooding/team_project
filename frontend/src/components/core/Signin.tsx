@@ -1,9 +1,11 @@
 import React from "react"
 import Layout from "./Layout";
-import {Button, Form, Input} from "antd";
+import {Button, Form, Input, Result} from "antd";
 import Logo from "./Logo";
 import {signin, SigninPayload} from "../../store/actions/auth.actions";
 import {useDispatch, useSelector} from "react-redux";
+import {AppState} from "../../store/reducers";
+import {AuthState} from "../../store/reducers/auth.reducer";
 
 
 
@@ -13,8 +15,25 @@ const Signin  = () => {
         // console.log(value)
         dispatch(signin(signinValue))
     }
+    // get the signin result
+    const auth = useSelector<AppState, AuthState>(state => state.auth)
+    // if signin fail, handle the fail message
+    const showError = () => {
+        if (auth.signin.loaded && !auth.signin.success) {
+            return(
+                <Result
+                    status="warning"
+                    title="Sign in fail"
+                    subTitle={auth.signin.message}
+                />
+            )
+        }
+    }
+    // if success, jump to the user home page
+    // hide the signin and signup link in the navigation, display the user home page
 
     return <Layout title="Sign in" subTitle="">
+        {showError()}
         <Logo/>
         <Form
             onFinish={onFinish}
