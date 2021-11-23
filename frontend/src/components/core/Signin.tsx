@@ -13,11 +13,8 @@ const Signin  = () => {
     const onFinish = (signinValue: SigninPayload) => {
         // console.log(value)
         dispatch(signin(signinValue))
-        console.log("here")
     }
-    // @ts-ignore
-    const auth = useSelector<AppState, AuthState>(state => state.auth)
-    console.log(auth);
+
     return <Layout title="Sign in" subTitle="">
         <Logo/>
         <Form

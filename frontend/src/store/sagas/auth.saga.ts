@@ -17,7 +17,7 @@ function* handleSignup(action: SignupAction) {
         yield axios.post(`${API}/users/signup`, action.payload)
         yield put(signupSuccess())
     } catch (error: any) {
-        yield put(signupFail(error.response.data.error))
+        yield put(signupFail(error.response.data.message))
     }
 }
 
