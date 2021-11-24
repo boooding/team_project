@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1882ac8-0179-47d3-ad6f-dc3dacaee3d3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/src/commonFunction/auth.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/store/models/auth.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/js/three.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/js/wave.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/controllers/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/controllers/users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Blog/BlogArticle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Blog/BlogArticle.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/components/core/Navigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/core/Navigation.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/core/Signin.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/core/Signin.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,11 +65,11 @@
       <recent name="$PROJECT_DIR$/ecommerce" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend/public/js" />
       <recent name="$PROJECT_DIR$/backend" />
       <recent name="$PROJECT_DIR$/frontend/src/components/Blog" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/server" />
-      <recent name="$PROJECT_DIR$/frontend/src/components/core" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -93,6 +93,8 @@
       <workItem from="1637051157976" duration="3053000" />
       <workItem from="1637165253452" duration="416000" />
       <workItem from="1637597025092" duration="13443000" />
+      <workItem from="1637675302874" duration="583000" />
+      <workItem from="1637680951090" duration="850000" />
     </task>
     <servers />
   </component>
@@ -120,7 +122,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/frontend/src/components/core/Signin.tsx</url>
           <line>48</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>

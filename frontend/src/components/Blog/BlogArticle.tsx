@@ -7,8 +7,6 @@ const BlogArticle  = () => {
         <div className="module-title divCenter">
             Article
         </div>
-        <MarkdownEditor
-        />
     </div>
 }
 export default BlogArticle;
