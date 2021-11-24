@@ -15,3 +15,21 @@
     border-bottom: 1px solid #F2F2F2;
     font-size: 18px;
 }
+
+.detailed-title{
+    font-size: 1rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.list-icon{
+    padding:.5rem 0;
+}
+.list-icon span{
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.center {
+    text-align: center;
+}

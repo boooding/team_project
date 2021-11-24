@@ -1,6 +1,7 @@
 import React from "react"
 import "./BlogInfo.css"
 import img from "../core/img.png"
+import {Divider} from "antd";
 
 const BlogInfo  = () => {
     return <div className="info-box">
@@ -23,10 +24,11 @@ const BlogInfo  = () => {
                 Programmer
             </div>
         </div>
-
+        <Divider>Introduction</Divider>
         <div className="info-intro divCenter">
             The blogger is to lazy to introduce himself
         </div>
+        <Divider>Friends</Divider>
         <div className="info-friend">
 
         </div>

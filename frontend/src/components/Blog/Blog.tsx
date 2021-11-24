@@ -6,7 +6,7 @@ import BlogArticle from "./BlogArticle";
 const Blog  = () => {
     return <Layout title="blog" subTitle="blog">
         <div style={{
-            marginTop: "30px"
+            marginTop: "40px"
         }}>
             <div style={{
                 width: "250px",
