@@ -2,9 +2,11 @@ import React from "react"
 import Layout from "../core/Layout";
 import BlogInfo from "./BlogInfo";
 import BlogArticle from "./BlogArticle";
+import ReactMarkdown from 'react-markdown'
 
 const Blog  = () => {
     return <Layout title="blog" subTitle="blog">
+        <ReactMarkdown># Hello, *world*!</ReactMarkdown>
         <div style={{
             marginTop: "40px"
         }}>

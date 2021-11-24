@@ -2,6 +2,7 @@ import React from "react"
 import "./BlogArticle.css"
 import {CalendarOutlined} from "@ant-design/icons";
 import {Divider} from "antd";
+import ReactMarkdown from 'react-markdown'
 
 const BlogArticle  = () => {
 
@@ -18,6 +19,7 @@ const BlogArticle  = () => {
                 <span><CalendarOutlined /> 2019-06-28</span>
             </div>
             <Divider/>
+            <ReactMarkdown># Hello, *world*!</ReactMarkdown>
 
         </div>
     </div>
