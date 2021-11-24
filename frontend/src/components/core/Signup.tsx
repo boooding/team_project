@@ -1,12 +1,11 @@
 import React, {useEffect} from "react"
 import Layout from "./Layout";
-import {Anchor, Button, Form, Input, Result} from "antd";
+import {Button, Form, Input, Result} from "antd";
 import {resetSignup, signup, SignupPayload} from "../../store/actions/auth.actions";
 import {useDispatch, useSelector} from "react-redux";
 import Logo from "./Logo";
 import {AppState} from "../../store/reducers";
 import {AuthState} from "../../store/reducers/auth.reducer";
-import AnchorLink from "antd/lib/anchor/AnchorLink";
 import {Link} from "react-router-dom";
 
 const Signup  = () => {
