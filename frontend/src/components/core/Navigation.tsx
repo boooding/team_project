@@ -24,7 +24,7 @@ const Navigation  = () => {
             <Link to="/">Mini-blog</Link>
         </Menu.Item>
         {
-            isAuth() && <>
+             <>
                 <Menu.Item className={isSignin}>
                     <Link to="/signin">Sign in</Link>
                 </Menu.Item>
@@ -35,7 +35,8 @@ const Navigation  = () => {
             </>
         }
         {
-            isAuth() && <Menu.Item className={isBlog}>
+
+            <Menu.Item className={isBlog}>
                 <Link to="/blog">blog</Link>
             </Menu.Item>
         }

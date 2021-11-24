@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1882ac8-0179-47d3-ad6f-dc3dacaee3d3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/public/js/three.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/public/js/wave.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/components/Blog/BlogArticle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Blog/BlogArticle.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/components/core/Navigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/core/Navigation.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/core/Signin.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/core/Signin.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +93,8 @@
       <workItem from="1637597025092" duration="13443000" />
       <workItem from="1637675302874" duration="583000" />
       <workItem from="1637680951090" duration="850000" />
+      <workItem from="1637729510711" duration="600000" />
+      <workItem from="1637734808707" duration="2258000" />
     </task>
     <servers />
   </component>
@@ -115,16 +115,5 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/frontend/src/components/core/Signin.tsx</url>
-          <line>48</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

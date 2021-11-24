@@ -37,7 +37,7 @@ const Signin  = () => {
         const authInfo = isAuth();
         console.log(authInfo)
         if (authInfo) {
-            return <Redirect to="/blog"/>
+            // return <Redirect to="/blog"/>
         }
     }
     // hide the signin and signup link in the navigation, display the user home page

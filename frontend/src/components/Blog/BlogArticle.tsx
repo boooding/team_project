@@ -6,7 +6,6 @@ import ReactMarkdown from 'react-markdown'
 
 const BlogArticle  = () => {
 
-
     return <div className="module-box">
         <div className="module-title divCenter">
             Article
