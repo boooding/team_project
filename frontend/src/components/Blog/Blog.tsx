@@ -6,7 +6,6 @@ import ReactMarkdown from 'react-markdown'
 
 const Blog  = () => {
     return <Layout title="blog" subTitle="blog">
-        <ReactMarkdown># Hello, *world*!</ReactMarkdown>
         <div style={{
             marginTop: "40px"
         }}>

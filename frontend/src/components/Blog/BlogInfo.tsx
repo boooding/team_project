@@ -19,19 +19,15 @@ const BlogInfo  = () => {
             </div>
         </div>
 
-        <div className="info-tag divCenter clearfix">
-            <div>
-                Programmer
-            </div>
-        </div>
-        <Divider>Introduction</Divider>
+        <Divider style={
+            {
+                padding:"0 10px"
+            }
+        }>Introduction</Divider>
         <div className="info-intro divCenter">
             The blogger is to lazy to introduce himself
         </div>
-        <Divider>Friends</Divider>
-        <div className="info-friend">
 
-        </div>
     </div>
 }
 export default BlogInfo;
