@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1882ac8-0179-47d3-ad6f-dc3dacaee3d3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/PPT/CS353FX_week10.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PPT/CS353FX_week12.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PPT/CS353FX_week4.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PPT/CS353FX_week5.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PPT/CS353FX_week6.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PPT/CS353FX_week7.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PPT/CS353FX_week8.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PPT/CS353FX_week9.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Blog/ArticleModal.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Blog/BlogArticle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Blog/BlogArticle.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,10 +24,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="React Component" />
         <option value="CSS File" />
-        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
+        <option value="React Component" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -92,7 +104,9 @@
       <workItem from="1637680951090" duration="850000" />
       <workItem from="1637729510711" duration="600000" />
       <workItem from="1637734808707" duration="2258000" />
-      <workItem from="1637755722727" duration="1544000" />
+      <workItem from="1637755722727" duration="3694000" />
+      <workItem from="1637843472719" duration="1855000" />
+      <workItem from="1637847912775" duration="9804000" />
     </task>
     <servers />
   </component>
