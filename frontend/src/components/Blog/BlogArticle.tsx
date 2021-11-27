@@ -14,13 +14,9 @@ const BlogArticle  = () => {
         setIsModalVisible(true);
     };
 
-    const handleOk = () => {
-        setIsModalVisible(false);
-    };
-
-    const handleCancel = () => {
-        setIsModalVisible(false);
-    };
+    const hideModal = () => {
+        setIsModalVisible(false)
+    }
 
     return <div className="module-box">
         <div className="module-title divCenter">
@@ -45,6 +41,7 @@ const BlogArticle  = () => {
                         <Modal
                             title="Basic Modal"
                             visible={isModalVisible}
+                            onCancel={hideModal}
                             destroyOnClose={true}
                             footer={null}
                         >
@@ -63,7 +60,6 @@ const BlogArticle  = () => {
             {/*<ReactMarkdown children={markdown} remarkPlugins={[remarkGfm]}/>*/}
 
         </div>
-
     </div>
 }
 export default BlogArticle;

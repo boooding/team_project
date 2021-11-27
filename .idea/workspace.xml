@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1882ac8-0179-47d3-ad6f-dc3dacaee3d3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/PPT/CS353FX_week10.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PPT/CS353FX_week12.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PPT/CS353FX_week4.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PPT/CS353FX_week5.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PPT/CS353FX_week6.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PPT/CS353FX_week7.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PPT/CS353FX_week8.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PPT/CS353FX_week9.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/Blog/ArticleModal.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/components/Blog/BlogArticle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Blog/BlogArticle.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +95,8 @@
       <workItem from="1637734808707" duration="2258000" />
       <workItem from="1637755722727" duration="3694000" />
       <workItem from="1637843472719" duration="1855000" />
-      <workItem from="1637847912775" duration="9804000" />
+      <workItem from="1637847912775" duration="10323000" />
+      <workItem from="1637974344458" duration="1235000" />
     </task>
     <servers />
   </component>
@@ -127,5 +117,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/frontend/src/components/Blog/BlogArticle.tsx</url>
+          <line>24</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
