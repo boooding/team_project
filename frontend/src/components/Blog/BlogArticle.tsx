@@ -31,7 +31,11 @@ const BlogArticle  = () => {
                 <span><UserOutlined /> Booding</span>
             </div>
             <div className="article-icon">
-                <span style={{marginLeft: "10px"}}>A article talk about scrum,A article talk about scrum,A article talk about scrum,A article talk about scrum,A article talk about scrum,A article talk about scrum...</span>
+                <span style={{marginLeft: "10px"}}>
+                    A article talk about scrum,A article talk about scrum,
+                    A article talk about scrum,A article talk about scrum,
+                    A article talk about scrum,A article talk about scrum...
+                </span>
             </div>
             <div>
                 <span style={{float: "right"}}>
