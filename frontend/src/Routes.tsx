@@ -11,10 +11,10 @@ const Routes  = () => {
     return <HashRouter>
         <Switch>
             <Route path="/" component={Home} exact/>
-            <Route path="/signin" component={Signin}></Route>
-            <Route path="/signup" component={Signup}></Route>
-            <Route path="/blog" component={Blog}></Route>
-            <ProtectedRoute path="/user/info"component={PersonalInformation}/>
+            <Route path="/signin" component={Signin}/>
+            <Route path="/signup" component={Signup}/>
+            <Route path="/blog" component={Blog}/>
+            <ProtectedRoute path="/user/info" component={PersonalInformation}/>
         </Switch>
     </HashRouter>
 }
