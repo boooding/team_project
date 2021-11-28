@@ -35,7 +35,6 @@ const Navigation  = () => {
             </>
         }
         {
-
             <Menu.Item className={isBlog}>
                 <Link to="/blog">blog</Link>
             </Menu.Item>
