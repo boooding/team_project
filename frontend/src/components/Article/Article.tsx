@@ -18,7 +18,7 @@ const Article  = () => {
                         <UnorderedListOutlined />Article List</Link>
                 </MenuItem>
                 <MenuItem>
-                    <Link to="/article">
+                    <Link to="/edit">
                         <BlockOutlined />New Article</Link>
                 </MenuItem>
             </Menu>
@@ -30,6 +30,7 @@ const Article  = () => {
             articleList
         </div>
     }
+
     return <Layout title="" subTitle="">
         <div style={{
             marginTop:"30px"
