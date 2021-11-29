@@ -6,6 +6,7 @@ const Home  = () => {
     const state = useSelector(state => state)
     return (
         <Layout title="homepage" subTitle="enjoy">
+
         </Layout>
     )
 

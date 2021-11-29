@@ -6,6 +6,7 @@ import Signup from "./components/core/Signup";
 import Blog from "./components/Blog/Blog";
 import ProtectedRoute from "./components/Account/ProtectedRoute";
 import PersonalInformation from "./components/Account/PersonalInformation";
+import Article from "./components/Article/Article";
 
 const Routes  = () => {
     return <HashRouter>
@@ -14,6 +15,7 @@ const Routes  = () => {
             <Route path="/signin" component={Signin}/>
             <Route path="/signup" component={Signup}/>
             <Route path="/blog" component={Blog}/>
+            <Route path="/article" component={Article}/>
             <ProtectedRoute path="/user/info" component={PersonalInformation}/>
         </Switch>
     </HashRouter>
