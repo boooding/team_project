@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from "react"
 import "./BlogArticle.css"
 import {CalendarOutlined, UserOutlined} from "@ant-design/icons";
-import {Affix, Button, Divider, Modal} from "antd";
+import {Button, Divider, Modal} from "antd";
 
 import 'markdown-navbar/dist/navbar.css';
 
@@ -86,27 +86,9 @@ let markdown = "# Marked\n" +
     "\n" +
     "**Browser**\n" +
     "\n" +
-    "```html\n" +
-    "<!doctype html>\n" +
-    "<html>\n" +
-    "<head>\n" +
-    "  <meta charset=\"utf-8\"/>\n" +
-    "  <title>Marked in the browser</title>\n" +
-    "</head>\n" +
-    "<body>\n" +
-    "  <div id=\"content\"></div>\n" +
-    "  <script src=\"https://cdn.jsdelivr.net/npm/marked/marked.min.js\"></script>\n" +
-    "  <script>\n" +
-    "    document.getElementById('content').innerHTML =\n" +
-    "      marked.parse('# Marked in the browser\\n\\nRendered by **marked**.');\n" +
-    "  </script>\n" +
-    "</body>\n" +
-    "</html>\n" +
-    "```\n" +
-    "\n" +
-    "## License\n" +
-    "\n" +
-    "Copyright (c) 2011-2018, Christopher Jeffrey. (MIT License)"
+    "```java\n" +
+    "system.out.println()\n" +
+    "```"
 let html = marked(markdown)
 
 
