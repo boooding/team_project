@@ -15,7 +15,7 @@ const Routes  = () => {
             <Route path="/signin" component={Signin}/>
             <Route path="/signup" component={Signup}/>
             <Route path="/blog" component={Blog}/>
-            <Route path="/article" component={Article}/>
+            <ProtectedRoute path="/article" component={Article}/>
             <ProtectedRoute path="/user/info" component={PersonalInformation}/>
         </Switch>
     </HashRouter>

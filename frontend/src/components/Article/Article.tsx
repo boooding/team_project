@@ -1,11 +1,11 @@
 import React from "react"
-import Layout from "../core/Layout";
+import LayoutForArticle from "./LayoutForArticle";
 
 const Article  = () => {
-    return <Layout title="article" subTitle="">
+    return <LayoutForArticle>
         <div>
             Hello, Article
         </div>
-    </Layout>
+    </LayoutForArticle>
 }
 export default Article;
