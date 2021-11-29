@@ -5,6 +5,7 @@ import {useSelector} from "react-redux";
 import {AppState} from "../../store/reducers";
 import {RouterState} from "connected-react-router";
 import {isAuth} from "../../commonFunction/auth";
+import * as path from "path";
 
 function useActive (currentPath: string, path: string): string {
     return currentPath === path ? "ant-menu-item-selected" : ""
@@ -18,7 +19,7 @@ const Navigation  = () => {
     const isSignup = useActive(pathname, '/signup')
 
     const isBlog = useActive(pathname, '/blog')
-
+    const isArticle = useActive(pathname, '/article')
     return <Menu mode="horizontal" selectable={false}>
         <Menu.Item className={isHome}>
             <Link to="/">Mini-blog</Link>
@@ -37,6 +38,11 @@ const Navigation  = () => {
         {
             <Menu.Item className={isBlog}>
                 <Link to="/blog">blog</Link>
+            </Menu.Item>
+        }
+        {
+            <Menu.Item className={isArticle}>
+                <Link to="/article">Article</Link>
             </Menu.Item>
         }
 
