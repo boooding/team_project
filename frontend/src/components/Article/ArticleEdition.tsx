@@ -12,7 +12,6 @@ const ArticleEdition  = () => {
     const [markdownContent, setMarkdownContent] = useState('预览内容') //html内容
     const [introducemd,setIntroducemd] = useState() //简介的markdown内容
     const [introducehtml,setIntroducehtml] = useState('等待编辑') //简介的html内容
-    const [typeInfo ,setTypeInfo] = useState([]) // 文章类别信息
 
     const changeContent = (e)=>{
         setArticleContent(e.target.value)
@@ -64,8 +63,6 @@ const ArticleEdition  = () => {
                         </div>
 
                     </Col>
-
-
                 </Row>
             </Col>
             <Col span={6}>
