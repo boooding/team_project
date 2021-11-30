@@ -6,7 +6,7 @@ import {useDispatch, useSelector} from "react-redux";
 import {AppState} from "../../store/reducers";
 import {AuthState} from "../../store/reducers/authority.reducer";
 import {isAuth} from "../../commonFunction/auth";
-import {Link, Redirect} from "react-router-dom";
+import {Redirect} from "react-router-dom";
 
 
 
