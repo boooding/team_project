@@ -141,16 +141,11 @@ const BlogArticle  = () => {
                             </div>
                         </Modal>
                     }
-
-
                 </span>
             </div>
 
 
             <Divider/>
-
-            {/*<ReactMarkdown children={markdown} remarkPlugins={[remarkGfm]}/>*/}
-
         </div>
     </div>
 }
