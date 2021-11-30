@@ -35,7 +35,7 @@ const initialState = {
         message: ""
     }
 }
-export default function authReducer (
+export default function authorityReducer (
     state = initialState,
     action: AuthUnionType
 ) {

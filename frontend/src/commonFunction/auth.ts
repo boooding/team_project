@@ -1,4 +1,4 @@
-import {UserJwt} from "../store/models/auth";
+import {UserJwt} from "../store/models/authority";
 
 export function isAuth (): boolean | UserJwt {
     const jwt = localStorage.getItem('jwt');

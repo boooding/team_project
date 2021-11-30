@@ -31,8 +31,7 @@ function* handleSignin(action: SigninAction) {
     }
 }
 
-export default function* authSaga () {
+export default function* authoritySaga () {
     yield takeEvery(SIGNUP, handleSignup)
     yield takeEvery(SIGNIN, handleSignin)
-
 }

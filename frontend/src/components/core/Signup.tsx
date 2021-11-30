@@ -4,12 +4,14 @@ import {Button, Form, Input, Result} from "antd";
 import {resetSignup, signup, SignupPayload} from "../../store/actions/authority.actions";
 import {useDispatch, useSelector} from "react-redux";
 import {AppState} from "../../store/reducers";
-import {AuthState} from "../../store/reducers/auth.reducer";
+import {AuthState} from "../../store/reducers/authority.reducer";
 import {Link} from "react-router-dom";
 
 const Signup  = () => {
+
     // get dispatch
     const dispatch = useDispatch()
+
     // get the result of signup
     const auth = useSelector<AppState, AuthState>(state => state.auth)
 
@@ -18,7 +20,7 @@ const Signup  = () => {
     }
 
     // clear the form after signup success
-    const [form] = Form.useForm(); // get the form
+    const [form] = Form.useForm(); // get the form first
     useEffect(() => {
         if (auth.signup.loaded && auth.signup.success) {
             form.resetFields();
@@ -63,8 +65,9 @@ const Signup  = () => {
 
     const signupForm = () => {
         return (
-            <>
-                <Form form={form} onFinish={onFinish}  style={{width:"400px",margin:"0 auto"}}>
+            <React.Fragment>
+                <Form form={form} onFinish={onFinish}  style={{width:"400px",margin:"30px auto",textAlign:"center"}}>
+                    <h3>Mini-blog</h3>
                     <Form.Item name="username" label="username">
                         <Input/>
                     </Form.Item>
@@ -77,7 +80,7 @@ const Signup  = () => {
                         </Button>
                     </Form.Item>
                 </Form>
-            </>
+            </React.Fragment>
         )
     }
     return <Layout title="Sign up" subTitle="" >

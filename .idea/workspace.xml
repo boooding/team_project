@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1882ac8-0179-47d3-ad6f-dc3dacaee3d3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/frontend/src/store/reducers/auth.reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/store/reducers/auth.reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/commonFunction/auth.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/commonFunction/auth.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/core/Signin.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/core/Signin.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/core/Signup.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/core/Signup.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/store/models/auth.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/store/models/authority.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/store/reducers/auth.reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/store/reducers/authority.reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/store/reducers/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/store/reducers/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/store/sagas/auth.saga.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/store/sagas/authority.saga.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/store/sagas/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/store/sagas/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +105,7 @@
       <workItem from="1637847912775" duration="10323000" />
       <workItem from="1637974344458" duration="2060000" />
       <workItem from="1638029626538" duration="5418000" />
-      <workItem from="1638151414591" duration="14177000" />
+      <workItem from="1638151414591" duration="17535000" />
     </task>
     <servers />
   </component>

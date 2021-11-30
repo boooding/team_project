@@ -4,8 +4,9 @@ import {Button, Form, Input, Result} from "antd";
 import {signin, SigninPayload} from "../../store/actions/authority.actions";
 import {useDispatch, useSelector} from "react-redux";
 import {AppState} from "../../store/reducers";
-import {AuthState} from "../../store/reducers/auth.reducer";
+import {AuthState} from "../../store/reducers/authority.reducer";
 import {isAuth} from "../../commonFunction/auth";
+import {Link, Redirect} from "react-router-dom";
 
 
 
@@ -32,19 +33,19 @@ const Signin  = () => {
     // if success, jump to the user home page
     const signinSuccessAndRedirectToUserPage = () => {
         const authInfo = isAuth();
-        console.log(authInfo)
         if (authInfo) {
-            // return <Redirect to="/blog"/>
+            alert("Sign in Success")
+            return <Redirect to="/blog"/>
         }
     }
-    // hide the signin and signup link in the navigation, display the user home page
 
+
+    // hide the signin and signup link in the navigation, display the user home page
     return <Layout title="Sign in" subTitle="">
         {showError()}
         {signinSuccessAndRedirectToUserPage()}
-        <Form
-            onFinish={onFinish}
-            style={{width:"400px",margin:"0 auto"}}>
+        <Form onFinish={onFinish}  style={{width:"400px",margin:"30px auto",textAlign:"center"}}>
+            <h3>Mini-blog</h3>
             <Form.Item name="username" label="username" >
                 <Input/>
             </Form.Item>
