@@ -3,11 +3,11 @@ import {
     RESET_SIGNUP,
     SIGNIN,
     SIGNIN_FAIL,
-    SIGNIN_SUCCESS, signup,
+    SIGNIN_SUCCESS,
     SIGNUP,
     SIGNUP_FAIL,
     SIGNUP_SUCCESS
-} from "../actions/auth.actions";
+} from "../actions/authority.actions";
 
 // add auth state information
 export interface AuthState {

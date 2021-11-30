@@ -1,14 +1,11 @@
 import React from "react"
 import Layout from "./Layout";
 import {Button, Form, Input, Result} from "antd";
-import Logo from "./Logo";
-import {signin, SigninPayload} from "../../store/actions/auth.actions";
+import {signin, SigninPayload} from "../../store/actions/authority.actions";
 import {useDispatch, useSelector} from "react-redux";
 import {AppState} from "../../store/reducers";
 import {AuthState} from "../../store/reducers/auth.reducer";
 import {isAuth} from "../../commonFunction/auth";
-import {UserJwt} from "../../store/models/auth";
-import {Redirect} from "react-router-dom";
 
 
 
@@ -45,7 +42,6 @@ const Signin  = () => {
     return <Layout title="Sign in" subTitle="">
         {showError()}
         {signinSuccessAndRedirectToUserPage()}
-        <Logo/>
         <Form
             onFinish={onFinish}
             style={{width:"400px",margin:"0 auto"}}>

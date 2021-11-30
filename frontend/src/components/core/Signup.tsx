@@ -1,9 +1,8 @@
 import React, {useEffect} from "react"
 import Layout from "./Layout";
 import {Button, Form, Input, Result} from "antd";
-import {resetSignup, signup, SignupPayload} from "../../store/actions/auth.actions";
+import {resetSignup, signup, SignupPayload} from "../../store/actions/authority.actions";
 import {useDispatch, useSelector} from "react-redux";
-import Logo from "./Logo";
 import {AppState} from "../../store/reducers";
 import {AuthState} from "../../store/reducers/auth.reducer";
 import {Link} from "react-router-dom";
@@ -65,7 +64,6 @@ const Signup  = () => {
     const signupForm = () => {
         return (
             <>
-                <Logo/>
                 <Form form={form} onFinish={onFinish}  style={{width:"400px",margin:"0 auto"}}>
                     <Form.Item name="username" label="username">
                         <Input/>

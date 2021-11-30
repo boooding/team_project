@@ -8,7 +8,7 @@ import {
     SignupAction,
     signupFail,
     signupSuccess
-} from "../actions/auth.actions";
+} from "../actions/authority.actions";
 import axios from "axios";
 import {API} from "../../config";
 
