@@ -2,10 +2,16 @@ import React,{useState} from 'react';
 import { Row, Col ,Input, Select ,Button ,DatePicker } from 'antd'
 import './ArticleEdition.css'
 import marked from 'marked';
-const { Option } = Select;
+import {useDispatch} from "react-redux";
+import {newArticle, NewArticlePayload} from "../../store/actions/Article.actions";
 const { TextArea } = Input
 
 const ArticleEdition  = () => {
+    const dispatch = useDispatch()
+    const onFinish = (articleValue: NewArticlePayload) => {
+        dispatch(newArticle(articleValue))
+    }
+
     const [articleId,setArticleId] = useState(0)  // 文章的ID，如果是0说明是新增加，如果不是0，说明是修改
     const [articleTitle,setArticleTitle] = useState('')   //文章标题
     const [articleContent , setArticleContent] = useState('')  //markdown的编辑内容
@@ -15,13 +21,13 @@ const ArticleEdition  = () => {
 
     const changeContent = (e)=>{
         setArticleContent(e.target.value)
-        let html=marked(e.target.value)
+        let html = marked(e.target.value)
         setMarkdownContent(html)
     }
 
     const changeIntroduce = (e)=>{
         setIntroducemd(e.target.value)
-        let html=marked(e.target.value)
+        let html = marked(e.target.value)
         setIntroducehtml(html)
     }
     marked.setOptions({
@@ -69,7 +75,6 @@ const ArticleEdition  = () => {
 
                     <Row>
                         <Col span={24}>
-                            <Button  size="large">暂存文章</Button>&nbsp;
                             <Button type="primary" size="large">发布文章</Button>
                             <br/>
                         </Col>

@@ -12,7 +12,7 @@ const blogSchema = new Schema({
         type: String,
         required: true,
     },
-    intro: {
+    introduction: {
         type: String,
         required: true,
     },

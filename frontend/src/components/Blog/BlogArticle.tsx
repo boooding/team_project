@@ -143,8 +143,6 @@ const BlogArticle  = () => {
                     }
                 </span>
             </div>
-
-
             <Divider/>
         </div>
     </div>

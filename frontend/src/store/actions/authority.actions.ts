@@ -13,6 +13,7 @@ export interface SignupPayload {
     username: string,
     password: string
 }
+
 export interface SignupAction {
     type: typeof SIGNUP,
     payload: SignupPayload
@@ -20,6 +21,7 @@ export interface SignupAction {
 export interface SignupSuccessAction {
     type: typeof SIGNUP_SUCCESS
 }
+
 export interface SignupFailAction {
     type: typeof SIGNUP_FAIL,
     message: string

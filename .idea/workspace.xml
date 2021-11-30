@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1882ac8-0179-47d3-ad6f-dc3dacaee3d3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/frontend/src/store/actions/Article.actions.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/core/Signin.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/core/Signin.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/models/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/models/blog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Article/ArticleEdition.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Article/ArticleEdition.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Blog/BlogArticle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Blog/BlogArticle.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/store/actions/authority.actions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/store/actions/authority.actions.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,10 +17,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="React Component" />
-        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
         <option value="CSS File" />
+        <option value="React Component" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -98,7 +102,7 @@
       <workItem from="1637847912775" duration="10323000" />
       <workItem from="1637974344458" duration="2060000" />
       <workItem from="1638029626538" duration="5418000" />
-      <workItem from="1638151414591" duration="20409000" />
+      <workItem from="1638151414591" duration="25385000" />
     </task>
     <servers />
   </component>
@@ -119,5 +123,17 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/frontend/src/components/Blog/BlogArticle.tsx</url>
+          <line>26</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
