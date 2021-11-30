@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c1882ac8-0179-47d3-ad6f-dc3dacaee3d3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/Routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Routes.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/Account/PersonalInformation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Account/PersonalInformation.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,10 +12,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="React Component" />
-        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -62,11 +60,11 @@
       <recent name="$PROJECT_DIR$/ecommerce" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend/src/components/tools" />
       <recent name="$PROJECT_DIR$/frontend/public/js" />
       <recent name="$PROJECT_DIR$/backend" />
       <recent name="$PROJECT_DIR$/frontend/src/components/Blog" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/server" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -98,7 +96,8 @@
       <workItem from="1637843472719" duration="1855000" />
       <workItem from="1637847912775" duration="10323000" />
       <workItem from="1637974344458" duration="2060000" />
-      <workItem from="1638029626538" duration="4463000" />
+      <workItem from="1638029626538" duration="5418000" />
+      <workItem from="1638151414591" duration="13747000" />
     </task>
     <servers />
   </component>
@@ -119,16 +118,5 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/frontend/src/components/Blog/BlogArticle.tsx</url>
-          <line>24</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
