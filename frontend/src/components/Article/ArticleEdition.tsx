@@ -1,35 +1,66 @@
-import React,{useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import { Row, Col ,Input, Select ,Button ,DatePicker } from 'antd'
 import './ArticleEdition.css'
 import marked from 'marked';
-import {useDispatch} from "react-redux";
-import {newArticle, NewArticlePayload} from "../../store/actions/Article.actions";
+import {isAuth} from "../../commonFunction/auth";
+import {UserJwt} from "../../store/models/authority";
+import axios from "axios";
+import {API} from "../../config";
 const { TextArea } = Input
 
 const ArticleEdition  = () => {
-    const dispatch = useDispatch()
-    const onFinish = (articleValue: NewArticlePayload) => {
-        dispatch(newArticle(articleValue))
+
+    // use hooks to set title, article markdown introduction content,article markdown content,
+    const [articleTitle, setArticleTitle] = useState<string>("")
+    const [articleIntroductionMarkdownContent, setArticleIntroductionMarkdownContent] = useState<string>("")
+    const [articleMarkdownContent, setArticleMarkdownContent] = useState<string>("");
+
+    // use hooks to set article markdown introduction content's and article markdown content's display
+    const [articleContentPreview, setArticleContentPreview] = useState("Preview")
+    const [articleContentIntroductionPreview, setArticleContentIntroductionPreview] = useState("Preview")
+
+    // get the user to get Id and token
+    const { user, token } = isAuth() as UserJwt;
+
+    async function addArticle() {
+        if (!(articleTitle && articleIntroductionMarkdownContent && articleMarkdownContent)) {
+            alert("Please fill Title, Content and Introduction")
+        }
+        try {
+            let response = await axios.post(`${API}/blogs/${user._id}`, {
+                    title: articleTitle,
+                    introduction: articleIntroductionMarkdownContent,
+                    content: articleMarkdownContent
+                }, {
+                    headers: {
+                        "Authorization": `Bearer ${token}`
+                    }
+                }
+            )
+            console.log(response)
+            alert("success")
+        } catch (e: any) {
+            console.log(e.response.data.message);
+        }
+
     }
 
-    const [articleId,setArticleId] = useState(0)  // 文章的ID，如果是0说明是新增加，如果不是0，说明是修改
-    const [articleTitle,setArticleTitle] = useState('')   //文章标题
-    const [articleContent , setArticleContent] = useState('')  //markdown的编辑内容
-    const [markdownContent, setMarkdownContent] = useState('预览内容') //html内容
-    const [introducemd,setIntroducemd] = useState() //简介的markdown内容
-    const [introducehtml,setIntroducehtml] = useState('等待编辑') //简介的html内容
-
     const changeContent = (e)=>{
-        setArticleContent(e.target.value)
+        setArticleMarkdownContent(e.target.value)
         let html = marked(e.target.value)
-        setMarkdownContent(html)
+        setArticleContentPreview(html)
     }
 
     const changeIntroduce = (e)=>{
-        setIntroducemd(e.target.value)
+        setArticleIntroductionMarkdownContent(e.target.value)
         let html = marked(e.target.value)
-        setIntroducehtml(html)
+        setArticleContentIntroductionPreview(html)
     }
+
+    const changeTitle = (e) => {
+        setArticleTitle(e.target.value)
+    }
+
     marked.setOptions({
         renderer: marked.Renderer(),
         gfm: true,
@@ -47,8 +78,10 @@ const ArticleEdition  = () => {
                 <Row gutter={10} >
                     <Col span={20}>
                         <Input
-                            placeholder="博客标题"
-                            size="large" />
+                            placeholder="Article Title"
+                            size="large"
+                            onChange={changeTitle}
+                        />
                     </Col>
                 </Row>
                 <br/>
@@ -57,14 +90,15 @@ const ArticleEdition  = () => {
                         <TextArea
                             className="markdown-content"
                             rows={35}
-                            placeholder="文章内容"
+                            placeholder="Article Content"
                             onChange={changeContent}
                         />
                     </Col>
                     <Col span={12}>
                         <div
                             className="show-html"
-                            dangerouslySetInnerHTML={{__html: markdownContent}}
+                            dangerouslySetInnerHTML={{__html: articleContentPreview}}
+                            placeholder="Article Content Preview"
                         >
                         </div>
 
@@ -75,20 +109,24 @@ const ArticleEdition  = () => {
 
                     <Row>
                         <Col span={24}>
-                            <Button type="primary" size="large">发布文章</Button>
+                            <Button
+                                type="primary"
+                                size="large"
+                                onClick={addArticle}
+                            >发布文章</Button>
                             <br/>
                         </Col>
                         <Col span={24}>
                             <br/>
                             <TextArea
                                 rows={4}
-                                placeholder="文章简介"
+                                placeholder="Article Introduction"
                                 onChange={changeIntroduce}
                             />
                             <br/><br/>
                             <div
                                 className="introduce-html"
-                                dangerouslySetInnerHTML={{__html: introducehtml}}
+                                dangerouslySetInnerHTML={{__html: articleContentIntroductionPreview}}
                             >
 
                             </div>
