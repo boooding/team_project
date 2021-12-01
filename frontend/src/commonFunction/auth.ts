@@ -1,5 +1,6 @@
 import {UserJwt} from "../store/models/authority";
 
+//
 export function isAuth (): boolean | UserJwt {
     const jwt = localStorage.getItem('jwt');
     if (jwt) {
@@ -9,3 +10,4 @@ export function isAuth (): boolean | UserJwt {
         return false;
     }
 }
+

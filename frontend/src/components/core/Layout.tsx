@@ -14,4 +14,5 @@ const Layout: FC<Props> = ({ children, title, subTitle }) => {
         </div>
     </div>
 }
+
 export default Layout;
