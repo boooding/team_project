@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1882ac8-0179-47d3-ad6f-dc3dacaee3d3" name="Changes" comment="" />
+    <list default="true" id="c1882ac8-0179-47d3-ad6f-dc3dacaee3d3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -97,6 +100,9 @@
       <workItem from="1638029626538" duration="5418000" />
       <workItem from="1638151414591" duration="33789000" />
       <workItem from="1638439983125" duration="7000" />
+      <workItem from="1638440025709" duration="288000" />
+      <workItem from="1638674389431" duration="1125000" />
+      <workItem from="1638853048040" duration="5913000" />
     </task>
     <servers />
   </component>
@@ -117,16 +123,5 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/frontend/src/components/Blog/BlogArticle.tsx</url>
-          <line>26</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

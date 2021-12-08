@@ -4,9 +4,12 @@ const static = require('koa-static');
 const error = require('koa-json-error');
 const parameter = require('koa-parameter');
 const path = require('path');
+
 const cors = require("@koa/cors")
 
 const app = new Koa();
+// support cors
+app.use(cors())
 
 const routing = require('./routes');
 const {APP_PORT} = require("./config");
@@ -14,8 +17,7 @@ const {APP_PORT} = require("./config");
 // DataBase connection
 require("./models/connectDB")
 
-// handle cors
-app.use(cors())
+
 
 // middleware, handle the static file
 app.use(
