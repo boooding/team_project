@@ -5,7 +5,6 @@ import {Divider} from "antd";
 
 const BlogInfo  = () => {
     return <div className="info-box">
-
         <div className="avatar">
             <img
                 src={img}

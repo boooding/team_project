@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from "react"
+import React, { useState} from "react"
 import "./BlogArticle.css"
 import {CalendarOutlined, UserOutlined} from "@ant-design/icons";
 import {Button, Divider, Modal} from "antd";
@@ -9,7 +9,6 @@ import 'markdown-navbar/dist/navbar.css';
 import marked from 'marked';
 import hljs from "highlight.js";
 import 'highlight.js/styles/monokai-sublime.css';
-
 const renderer = new marked.Renderer();
 marked.setOptions({
     renderer: renderer,
