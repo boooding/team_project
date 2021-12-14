@@ -19,6 +19,11 @@ const blogSchema = new Schema({
     content: {
         type: String,
         required: true
+    },
+    avatar_url: {
+        type: String,
+        required: true,
+        default: ""
     }
 },{
         timestamps: true

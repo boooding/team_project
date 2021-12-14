@@ -32,7 +32,7 @@ class UsersCtl {
     // update
     async update(ctx) {
         ctx.verifyParams({
-            password: { type: 'string', required: false },
+            introduction: { type: 'string', required: false },
             avatar_url: { type: 'string', required: false }
         });
         const user = await User.findByIdAndUpdate(ctx.params.id, ctx.request.body);

@@ -7,7 +7,7 @@ import Blog from "./components/Blog/Blog";
 import ProtectedRoute from "./components/tools/ProtectedRoute";
 import Article from "./components/Article/Article";
 import ArticleEdition from "./components/Article/ArticleEdition";
-
+import UserInformation from "./components/Test/UserInformation"
 const Routes  = () => {
     return <HashRouter>
         <Switch>
@@ -17,6 +17,8 @@ const Routes  = () => {
             <Route path="/blog" component={Blog}/>
             <ProtectedRoute path="/article" component={Article}/>
             <ProtectedRoute path="/edit" component={ArticleEdition}/>
+        {/*    Test*/}
+            <Route path="/users" component={UserInformation}/>
         </Switch>
     </HashRouter>
 }
