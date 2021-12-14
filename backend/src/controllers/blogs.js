@@ -39,8 +39,24 @@ class BlogCtl {
     }
     async readArticleContent(ctx) {
         const articleId = ctx.params.id;
-        const article = await Blog.findById({_id: articleId})
-        ctx.body = article;
+        ctx.body = await Blog.findById({_id: articleId});
+    }
+    async deleteArticle(ctx) {
+        console.log(ctx.params)
+        await Blog.findByIdAndDelete({_id: ctx.params.article})
+        await User.findByIdAndUpdate({_id: ctx.params.id},{$pull: {blogList: ctx.params.article}})
+        console.log("success")
+    }
+    async updateArticle(ctx) {
+        ctx.verifyParams({
+            title: { type: 'string', required: true },
+            introduction: { type: 'string', required: true },
+            content: { type: 'string', required: true }
+        });
+        await Blog.findByIdAndUpdate({_id: ctx.params.article},
+            ctx.request.body
+        )
+        console.log()
     }
 }
 

@@ -4,7 +4,6 @@
     <list default="true" id="c1882ac8-0179-47d3-ad6f-dc3dacaee3d3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/controllers/blogs.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/controllers/blogs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/models/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/models/blog.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/routes/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/routes/blog.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -110,7 +109,7 @@
       <workItem from="1638946948866" duration="776000" />
       <workItem from="1639411847814" duration="1015000" />
       <workItem from="1639480342232" duration="3868000" />
-      <workItem from="1639485104571" duration="5229000" />
+      <workItem from="1639485104571" duration="7796000" />
     </task>
     <servers />
   </component>
