@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1882ac8-0179-47d3-ad6f-dc3dacaee3d3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/core/img_3.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/store/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/store/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/js/three.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/js/three.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/js/wave.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/Routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Routes.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Account/PersonalInformation.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Blog/BlogArticle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Blog/BlogArticle.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Blog/BlogInfo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Blog/BlogInfo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/core/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/core/Home.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +26,7 @@
         <option value="CSS File" />
         <option value="React Component" />
         <option value="TypeScript JSX File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -48,7 +58,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/backend" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/frontend/src/components/core" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -57,15 +67,16 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend/src/components/core" />
       <recent name="$PROJECT_DIR$/backend" />
       <recent name="$PROJECT_DIR$/ecommerce" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend/src/components/core" />
       <recent name="$PROJECT_DIR$/frontend/src/components/tools" />
       <recent name="$PROJECT_DIR$/frontend/public/js" />
       <recent name="$PROJECT_DIR$/backend" />
       <recent name="$PROJECT_DIR$/frontend/src/components/Blog" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -104,6 +115,9 @@
       <workItem from="1638674389431" duration="1125000" />
       <workItem from="1638853048040" duration="6414000" />
       <workItem from="1638946948866" duration="776000" />
+      <workItem from="1639411847814" duration="1015000" />
+      <workItem from="1639480342232" duration="3868000" />
+      <workItem from="1639485104571" duration="2535000" />
     </task>
     <servers />
   </component>
@@ -130,9 +144,20 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/frontend/src/components/Blog/BlogArticle.tsx</url>
-          <line>74</line>
-          <properties lambdaOrdinal="-1" />
+          <line>73</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/frontend/src/components/core/Home.tsx</url>
+          <line>83</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/frontend/src/components/Blog/BlogArticle.tsx</url>
+          <line>108</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
