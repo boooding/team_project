@@ -18,11 +18,29 @@ class BlogCtl {
         ).save()
         await User.findByIdAndUpdate({_id: authorId},{ $push: {"blogList": blog._id}})
         ctx.body = blog;
-
     }
     async checkOwner(ctx, next) {
         if (ctx.params.id !== ctx.state.user._id) { ctx.throw(403, 'no authority'); }
         await next();
+    }
+    //
+    async readArticleList(ctx) {
+        // read user first
+        const authorId = ctx.params.id
+        const author = await User.findById({_id: authorId})
+        // read user's article list
+        const articleIdList = author.blogList;
+        const articleContent = [];
+        for ( let articleId of articleIdList) {
+            const article = await Blog.findById({_id: articleId})
+            articleContent.splice(0, 0,article)
+        }
+        ctx.body = articleContent;
+    }
+    async readArticleContent(ctx) {
+        const articleId = ctx.params.id;
+        const article = await Blog.findById({_id: articleId})
+        ctx.body = article;
     }
 }
 

@@ -18,8 +18,7 @@ const blogSchema = new Schema({
     },
     content: {
         type: String,
-        required: true,
-        select: false
+        required: true
     }
 },{
         timestamps: true

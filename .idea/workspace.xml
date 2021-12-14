@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1882ac8-0179-47d3-ad6f-dc3dacaee3d3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/core/img_3.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/js/three.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/js/three.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/js/wave.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/Routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Routes.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/Account/PersonalInformation.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/Blog/BlogArticle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Blog/BlogArticle.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/Blog/BlogInfo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Blog/BlogInfo.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/core/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/core/Home.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/controllers/blogs.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/controllers/blogs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/models/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/models/blog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/routes/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/routes/blog.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +110,7 @@
       <workItem from="1638946948866" duration="776000" />
       <workItem from="1639411847814" duration="1015000" />
       <workItem from="1639480342232" duration="3868000" />
-      <workItem from="1639485104571" duration="2535000" />
+      <workItem from="1639485104571" duration="5229000" />
     </task>
     <servers />
   </component>
