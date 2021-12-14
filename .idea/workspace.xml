@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c1882ac8-0179-47d3-ad6f-dc3dacaee3d3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/controllers/blogs.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/controllers/blogs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/routes/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/routes/blog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/core/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/core/Home.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +108,8 @@
       <workItem from="1638946948866" duration="776000" />
       <workItem from="1639411847814" duration="1015000" />
       <workItem from="1639480342232" duration="3868000" />
-      <workItem from="1639485104571" duration="7796000" />
+      <workItem from="1639485104571" duration="8157000" />
+      <workItem from="1639496321851" duration="1035000" />
     </task>
     <servers />
   </component>
@@ -141,14 +141,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/frontend/src/components/core/Home.tsx</url>
-          <line>83</line>
-          <properties lambdaOrdinal="-1" />
+          <line>84</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/frontend/src/components/Blog/BlogArticle.tsx</url>
           <line>108</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>

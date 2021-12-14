@@ -6,9 +6,10 @@ import 'markdown-navbar/dist/navbar.css';
 
 // @ts-ignore
 import marked from 'marked';
-import hljs from "highlight.js";
+import highlightjs from "highlight.js";
 import 'highlight.js/styles/vs2015.css';
 const renderer = new marked.Renderer();
+
 marked.setOptions({
     renderer: renderer,
     gfm: true,
@@ -19,7 +20,7 @@ marked.setOptions({
     smartLists: true,
     smartypants: false,
     highlight: function (code) {
-        return hljs.highlightAuto(code).value;
+        return highlightjs.highlightAuto(code).value;
     }
 });
 let markdown = "## Team12 -  Mini-blog\n" +
