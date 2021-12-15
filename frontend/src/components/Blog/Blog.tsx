@@ -1,8 +1,9 @@
-import React from "react"
+import React, {useEffect, useState} from "react"
 import Layout from "../core/Layout";
 import BlogInfo from "./BlogInfo";
 import BlogArticle from "./BlogArticle";
-import ReactMarkdown from 'react-markdown'
+import BlogArticleList from "./BlogArticleList";
+
 
 const Blog  = () => {
     return <Layout title="blog" subTitle="blog">
@@ -20,8 +21,10 @@ const Blog  = () => {
                 float: "right"
             }}>
                 <BlogArticle/>
+                <BlogArticleList  ArticleList={""}/>
             </div>
         </div>
+
     </Layout>
 }
 export default Blog;

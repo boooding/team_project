@@ -9,8 +9,6 @@ import {createBrowserHistory} from "history";
 import {isAuth} from "../../commonFunction/auth";
 
 const UserInformation = () => {
-
-
     const dispatch = useDispatch();
     const { userInformation } = useSelector<AppState, UserInformationState>(
         state => state.userInformation

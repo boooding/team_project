@@ -37,7 +37,6 @@ const ArticleEdition  = () => {
                     }
                 }
             )
-            console.log(response)
             alert("success")
         } catch (e: any) {
             console.log(e.response.data.message);
@@ -113,7 +112,7 @@ const ArticleEdition  = () => {
                                 type="primary"
                                 size="large"
                                 onClick={addArticle}
-                            >发布文章</Button>
+                            >Post Article</Button>
                             <br/>
                         </Col>
                         <Col span={24}>
