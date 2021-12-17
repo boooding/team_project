@@ -3,9 +3,7 @@ import {AppState} from "../../store/reducers";
 import {UserInformationState} from "../../store/reducers/userInformation.reducer";
 import {useEffect} from "react";
 import {getUserInformation} from "../../store/actions/userInformation.actions";
-import {useLocation, useParams} from "react-router-dom";
 import Layout from "../core/Layout";
-import {createBrowserHistory} from "history";
 import {isAuth} from "../../commonFunction/auth";
 
 const UserInformation = () => {
