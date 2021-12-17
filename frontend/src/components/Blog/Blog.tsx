@@ -2,7 +2,6 @@ import React, {useEffect, useState} from "react"
 import Layout from "../core/Layout";
 import BlogInfo from "./BlogInfo";
 import BlogArticle from "./BlogArticle";
-import BlogArticleList from "./BlogArticleList";
 
 
 const Blog  = () => {
@@ -21,7 +20,6 @@ const Blog  = () => {
                 float: "right"
             }}>
                 <BlogArticle/>
-                <BlogArticleList  ArticleList={""}/>
             </div>
         </div>
 
