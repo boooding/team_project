@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1882ac8-0179-47d3-ad6f-dc3dacaee3d3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/Blog/ArticleContent.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/Blog/BlogArticleContent.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/Blog/BlogArticle.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Blog/BlogArticle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/Blog/BlogArticle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Blog/BlogArticle.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/Test/UserInformation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Test/UserInformation.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/core/Navigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/core/Navigation.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +110,7 @@
       <workItem from="1639529721473" duration="3956000" />
       <workItem from="1639533740736" duration="11082000" />
       <workItem from="1639719939694" duration="306000" />
-      <workItem from="1639731049253" duration="9659000" />
+      <workItem from="1639731049253" duration="10046000" />
     </task>
     <servers />
   </component>
