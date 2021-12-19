@@ -45,7 +45,8 @@ const BlogArticleListContent  = (value) => {
         setHtml(marked(content));
         setTitle(articleContent.title);
         setAuthor(articleContent.author);
-        setCreatedAt(articleContent.createdAt);
+        // @ts-ignore
+        setCreatedAt(transferDate(articleContent.createdAt));
         setIntroduction(articleContent.introduction);
     })
     const [isModalVisible, setIsModalVisible] = useState(false);
@@ -57,7 +58,7 @@ const BlogArticleListContent  = (value) => {
     }
     const transferDate = (date: string) => {
         let newDate = new Date(date);
-        return newDate.getFullYear() + "-" + ( newDate.getMonth() + 1) + (newDate.getDay())
+        return newDate.getFullYear() + "-" + ( newDate.getMonth() + 1) + "-" + (newDate.getDay())
     }
     return <>
         <div>

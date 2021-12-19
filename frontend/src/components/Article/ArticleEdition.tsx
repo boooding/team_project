@@ -105,7 +105,6 @@ const ArticleEdition  = () => {
                 </Row>
             </Col>
             <Col span={6}>
-
                     <Row>
                         <Col span={24}>
                             <Button
@@ -127,7 +126,6 @@ const ArticleEdition  = () => {
                                 className="introduce-html"
                                 dangerouslySetInnerHTML={{__html: articleContentIntroductionPreview}}
                             >
-
                             </div>
                         </Col>
                     </Row>
