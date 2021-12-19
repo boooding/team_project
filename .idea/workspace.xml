@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1882ac8-0179-47d3-ad6f-dc3dacaee3d3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Article/ArticleUpdate.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/controllers/blogs.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/controllers/blogs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/controllers/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/controllers/users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/Routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Routes.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +114,8 @@
       <workItem from="1639529721473" duration="3956000" />
       <workItem from="1639533740736" duration="11082000" />
       <workItem from="1639719939694" duration="306000" />
-      <workItem from="1639731049253" duration="10046000" />
+      <workItem from="1639731049253" duration="11557000" />
+      <workItem from="1639898086550" duration="5488000" />
     </task>
     <servers />
   </component>

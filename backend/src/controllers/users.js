@@ -60,7 +60,7 @@ class UsersCtl {
         const user = await User.findOne(ctx.request.body);
         if (!user) { ctx.throw(401, 'username or password is incorrect'); }
         const { _id, username } = user;
-        const token = jsonwebtoken.sign({ _id, username }, "key", { expiresIn: '2d' });
+        const token = jsonwebtoken.sign({ _id, username }, "key", { expiresIn: '99d' });
         ctx.body = {
             token,
             "user": {

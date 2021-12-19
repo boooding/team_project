@@ -45,7 +45,7 @@ class BlogCtl {
         console.log(ctx.params)
         await Blog.findByIdAndDelete({_id: ctx.params.article})
         await User.findByIdAndUpdate({_id: ctx.params.id},{$pull: {blogList: ctx.params.article}})
-        console.log("success")
+        ctx.status = 204
     }
     async updateArticle(ctx) {
         ctx.verifyParams({
@@ -56,7 +56,7 @@ class BlogCtl {
         await Blog.findByIdAndUpdate({_id: ctx.params.article},
             ctx.request.body
         )
-        console.log()
+        ctx.status = 200
     }
 }
 

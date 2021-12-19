@@ -8,6 +8,7 @@ import ProtectedRoute from "./components/tools/ProtectedRoute";
 import Article from "./components/Article/Article";
 import ArticleEdition from "./components/Article/ArticleEdition";
 import UserInformation from "./components/Test/UserInformation"
+import ArticleUpdate from "./components/Article/ArticleUpdate";
 const Routes  = () => {
     return <HashRouter>
         <Switch>
@@ -16,8 +17,10 @@ const Routes  = () => {
             <Route path="/signup" component={Signup}/>
             <Route path="/blog" component={Blog}/>
             <ProtectedRoute path="/article" component={Article}/>
-            <ProtectedRoute path="/edit" component={ArticleEdition}/>
-        {/*    Test*/}
+            {/*<ProtectedRoute path="/edit" component={ArticleEdition}/>*/}
+            <ProtectedRoute path="/edit" component={ArticleUpdate}/>
+
+            {/*    Test*/}
             <Route path="/users" component={UserInformation}/>
         </Switch>
     </HashRouter>
