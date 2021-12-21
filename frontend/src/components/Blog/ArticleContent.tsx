@@ -31,16 +31,19 @@ const BlogArticleListContent  = (value) => {
     const [introduction, setIntroduction] = useState();
     const [content, setContent] = useState("");
     const [html, setHtml] = useState("")
+    const [articleId, setArticleId] = useState("")
     async function getArticleContent() {
         try {
             let response = await axios.get(`${API}/blogs/articles/${value.value}`)
             articleContent = response.data
+
         } catch (e) {
             console.log(e);
         }
     }
 
     getArticleContent().then(() => {
+        setArticleId(articleContent._id)
         setContent(articleContent.content);
         setHtml(marked(content));
         setTitle(articleContent.title);
@@ -60,6 +63,9 @@ const BlogArticleListContent  = (value) => {
         let newDate = new Date(date);
         return newDate.getFullYear() + "-" + ( newDate.getMonth() + 1) + "-" + (newDate.getDay())
     }
+    const copyLink = () => {
+        navigator.clipboard.writeText("http://localhost:3000/#/article/share/" + articleId)
+    }
     return <>
         <div>
             <div className="article-box">
@@ -77,6 +83,7 @@ const BlogArticleListContent  = (value) => {
                 </div>
                 <div>
                 <span style={{float: "right"}}>
+                    <Button type="link" onClick={copyLink}>Share the article</Button>
                     <Button type="link" onClick={showModal}>View details</Button>
                     {
                         isModalVisible &&

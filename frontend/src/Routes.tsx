@@ -9,6 +9,7 @@ import Article from "./components/Article/Article";
 import ArticleEdition from "./components/Article/ArticleEdition";
 import UserInformation from "./components/Test/UserInformation"
 import ArticleUpdate from "./components/Article/ArticleUpdate";
+import ArticleShare from "./components/Article/ArticleShare";
 const Routes  = () => {
     return <HashRouter>
         <Switch>
@@ -16,9 +17,10 @@ const Routes  = () => {
             <Route path="/signin" component={Signin}/>
             <Route path="/signup" component={Signup}/>
             <Route path="/blog" component={Blog}/>
+            <Route path="/article/share" component={ArticleShare}/>
             <ProtectedRoute path="/article" component={Article}/>
-            {/*<ProtectedRoute path="/edit" component={ArticleEdition}/>*/}
-            <ProtectedRoute path="/edit" component={ArticleUpdate}/>
+            <ProtectedRoute path="/edit" component={ArticleEdition}/>
+            <ProtectedRoute path="/update" component={ArticleUpdate}/>
 
             {/*    Test*/}
             <Route path="/users" component={UserInformation}/>

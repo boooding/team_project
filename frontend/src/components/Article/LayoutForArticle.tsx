@@ -6,7 +6,6 @@ interface Props {
 }
 const Layout: FC<Props> = ({ children}) => {
     return <div>
-        <Navigation/>
         <div>
             {children}
         </div>

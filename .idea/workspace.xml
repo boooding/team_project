@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1882ac8-0179-47d3-ad6f-dc3dacaee3d3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Article/ArticleShare.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/Routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Routes.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Article/LayoutForArticle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Article/LayoutForArticle.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Blog/ArticleContent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Blog/ArticleContent.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,9 +19,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="TypeScript File" />
         <option value="React Component" />
+        <option value="JavaScript File" />
         <option value="TypeScript JSX File" />
       </list>
     </option>
@@ -66,6 +72,19 @@
       <recent name="$PROJECT_DIR$/frontend/src/components/Blog" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="test.js" type="MongoRunConfiguration" factoryName="Mongo" temporary="true">
+      <module name="team_project" />
+      <setting name="path" value="$PROJECT_DIR$/backend/src/test.js" />
+      <setting name="shellParams" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Mongo.test.js" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -113,7 +132,10 @@
       <workItem from="1639731049253" duration="11557000" />
       <workItem from="1639898086550" duration="6218000" />
       <workItem from="1639993542983" duration="57000" />
-      <workItem from="1640014888387" duration="811000" />
+      <workItem from="1640014888387" duration="2613000" />
+      <workItem from="1640050955579" duration="149000" />
+      <workItem from="1640067186593" duration="2994000" />
+      <workItem from="1640079011297" duration="611000" />
     </task>
     <servers />
   </component>
