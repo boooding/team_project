@@ -6,6 +6,7 @@ import {isAuth} from "../../commonFunction/auth";
 import {UserJwt} from "../../store/models/authority";
 import axios from "axios";
 import {API} from "../../config";
+import {Redirect} from "react-router-dom";
 const { TextArea } = Input
 
 const ArticleEdition  = () => {
@@ -38,6 +39,7 @@ const ArticleEdition  = () => {
                 }
             )
             alert("success")
+            window.location.href = `http://localhost:3000/#/article`
         } catch (e: any) {
             console.log(e.response.data.message);
         }

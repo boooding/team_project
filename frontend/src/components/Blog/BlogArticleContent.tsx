@@ -29,7 +29,9 @@ const BlogArticleContent  = () => {
         })
         return <div>{template}</div>
     }
-    getArticleContent();
+    useEffect(() => {
+        getArticleContent();
+    }, []);
     return <div>
         {generateTemplate(article)}
     </div>

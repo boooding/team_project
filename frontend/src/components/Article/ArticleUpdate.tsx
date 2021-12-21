@@ -10,7 +10,9 @@ import ReactDOM from "react-dom";
 const { TextArea } = Input
 
 const ArticleUpdate  = (props) => {
-    let articleId = "61a714ebc6f43d0ba0d8e948";
+    let url = window.location.href;
+    let idIndex = url.lastIndexOf('\/')
+    let articleId = url.substring(idIndex+1, url.length)
 
     // use hooks to set title, article markdown introduction content,article markdown content,
     const [articleTitle, setArticleTitle] = useState<string>("")

@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1882ac8-0179-47d3-ad6f-dc3dacaee3d3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/Article/ArticleShare.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Blog/ArticleContentAdmin.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/Routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Routes.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/Article/LayoutForArticle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Article/LayoutForArticle.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/Blog/ArticleContent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Blog/ArticleContent.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Article/Article.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Article/Article.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Article/ArticleEdition.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Article/ArticleEdition.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Article/ArticleUpdate.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Article/ArticleUpdate.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Blog/BlogArticleContent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Blog/BlogArticleContent.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,10 +18,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="TypeScript File" />
         <option value="React Component" />
         <option value="JavaScript File" />
         <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -136,6 +135,7 @@
       <workItem from="1640050955579" duration="149000" />
       <workItem from="1640067186593" duration="2994000" />
       <workItem from="1640079011297" duration="611000" />
+      <workItem from="1640084890298" duration="2446000" />
     </task>
     <servers />
   </component>
