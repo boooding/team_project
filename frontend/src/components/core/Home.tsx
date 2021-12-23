@@ -23,65 +23,36 @@ marked.setOptions({
         return highlightjs.highlightAuto(code).value;
     }
 });
-let markdown = "## Team12 -  Mini-blog\n" +
+let markdown = "## Mini-Blog Team12\n" +
     "\n" +
-    "### About the Project\n" +
+    "### Team Member\n" +
     "\n" +
-    "The Mini-blog is Planned to be a blog system with \"community\" feature. For now the most part of blog system is finished, including account related signin, signup and blog article's CRUD, what's more, The web-based online markdown editor is supported with preview.\n" +
+    "- Zekai Cai, Jiaxi Chen, Runjie Fan, Weibin Zou, Junchen Li, Xianpeng Wu\n" +
     "\n" +
-    "### Technology stack\n" +
+    "### Product Introduction\n" +
+    "\n" +
+    "The “Mini-Blog” is a web-based  blo system. It's a writing product, which support web online markdown wrting and preview.\n" +
+    "\n" +
+    "### Tech Stack\n" +
     "\n" +
     "#### Front-end\n" +
     "\n" +
-    "- Typescript\n" +
-    "\n" +
-    "Compared to traditional JS, TS’s defined types make code management easier and less “undefined” problems in JS. \n" +
-    "\n" +
-    "- React + Redux + Redux-Saga\n" +
-    "\n" +
-    "React is a JS(TS) library for building the UI. Component-based feature make complex UI development easier. Redux is a state container for application. Bluntly, the redux helps to manage different types of data(state) in react. \n" +
-    "\n" +
+    "- TypeScript\n" +
+    "- React + Redux + Redux-Saga \n" +
     "- Ant design\n" +
-    "\n" +
-    "The ant-design is the most popular UI component library of react. \n" +
-    "\n" +
-    "- Axios\n" +
-    "\n" +
-    "The axios is a http client, which simplify the request.\n" +
-    "\n" +
     "- Marked + highlight.js + Three.js\n" +
-    "\n" +
-    "As a blog system, markdown is the most important file type, which means the display of markdown is very important, the marked is a compiler for parsing markdown and highlight.js is a syntax highlighter for browser. \n" +
+    "- Axios\n" +
     "\n" +
     "#### Back-end\n" +
     "\n" +
-    "- Node.js\n" +
+    "- nodejs\n" +
     "- Koa + Koa-cors + Koa-parameter\n" +
-    "\n" +
-    "Koa is a famous web framework for node.js. Compared to the traditional web framework Express, the Koa is smaller and more concise in syntax. Even the Koa has not many build-in middleware, the Koa community provide excellent many solutions.\n" +
-    "\n" +
     "- MongoDB + Mongoose\n" +
-    "\n" +
-    "MongoDB is one of the most popular databases in the world. MongoDB is based on the document data mode, which naturally support JSON. Mongoose is MongoDB object modeling for node.\n" +
     "\n" +
     "#### Testing\n" +
     "\n" +
-    "- Jest + Enzyme\n" +
-    "\n" +
-    "Used for testing the front-end components.\n" +
-    "\n" +
     "- Postman\n" +
-    "\n" +
-    "Used for testing API.\n" +
-    "\n" +
-    "### Major Feature\n" +
-    "\n" +
-    "- Sign in + Sign up\n" +
-    "\n" +
-    "- Blog Post + CRUD of Blog\n" +
-    "\n" +
-    "- Web-based Markdown editor\n" +
-    "\n"
+    "- Jest + Enzyme"
 let html = marked(markdown)
 const Home  = () => {
     const state = useSelector(state => state)

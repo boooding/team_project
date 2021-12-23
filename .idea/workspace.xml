@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1882ac8-0179-47d3-ad6f-dc3dacaee3d3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/Blog/ArticleContentAdmin.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/Article/Article.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Article/Article.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/Article/ArticleEdition.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Article/ArticleEdition.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/components/Article/ArticleUpdate.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Article/ArticleUpdate.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/Blog/BlogArticleContent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Blog/BlogArticleContent.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/core/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/core/Home.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/core/Navigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/core/Navigation.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +133,8 @@
       <workItem from="1640050955579" duration="149000" />
       <workItem from="1640067186593" duration="2994000" />
       <workItem from="1640079011297" duration="611000" />
-      <workItem from="1640084890298" duration="2446000" />
+      <workItem from="1640084890298" duration="2836000" />
+      <workItem from="1640116653557" duration="2299000" />
     </task>
     <servers />
   </component>
@@ -162,7 +161,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/frontend/src/components/core/Home.tsx</url>
-          <line>84</line>
+          <line>55</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>

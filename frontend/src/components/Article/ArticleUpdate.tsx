@@ -45,7 +45,10 @@ const ArticleUpdate  = (props) => {
         }
     }
     useEffect(() => {
-        getArticle();
+        getArticle().then(() => {
+            alert("success");
+            window.location.href = ""
+        });
     }, [])
 
     async function addArticle() {
