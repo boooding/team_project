@@ -65,7 +65,7 @@ const BlogArticleListContentAdmin  = (value) => {
     }
     const transferDate = (date: string) => {
         let newDate = new Date(date);
-        return newDate.getFullYear() + "-" + ( newDate.getMonth() + 1) + "-" + (newDate.getDay())
+        return newDate.getFullYear() + "-" + ( newDate.getMonth() + 1) + "-" + (newDate.getDate())
     }
     const copyLink = () => {
         navigator.clipboard.writeText("http://localhost:3000/#/article/share/" + articleId).then(() => {

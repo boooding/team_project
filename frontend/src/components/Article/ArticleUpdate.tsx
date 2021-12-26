@@ -46,8 +46,6 @@ const ArticleUpdate  = (props) => {
     }
     useEffect(() => {
         getArticle().then(() => {
-            alert("success");
-            window.location.href = ""
         });
     }, [])
 
@@ -66,7 +64,10 @@ const ArticleUpdate  = (props) => {
                     }
                 }
             )
-            console.log(response)
+            if(response.data == "OK") {
+                alert("success");
+                window.location.href = `http://localhost:3000/#/article`
+            }
         } catch (e: any) {
             console.log(e.response.data.message);
         }

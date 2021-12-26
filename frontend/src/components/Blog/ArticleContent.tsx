@@ -61,11 +61,12 @@ const BlogArticleListContent  = (value) => {
     }
     const transferDate = (date: string) => {
         let newDate = new Date(date);
-        return newDate.getFullYear() + "-" + ( newDate.getMonth() + 1) + "-" + (newDate.getDay())
+        return newDate.getFullYear() + "-" + ( newDate.getMonth() + 1) + "-" + (newDate.getDate())
     }
     const copyLink = () => {
-        navigator.clipboard.writeText("http://localhost:3000/#/article/share/" + articleId)
-    }
+        navigator.clipboard.writeText("http://localhost:3000/#/article/share/" + articleId).then(() => {
+            alert("The link of article has been copied")
+        })    }
     return <>
         <div>
             <div className="article-box">
